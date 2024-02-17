@@ -1,6 +1,6 @@
 .color-circle {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 4vh;
+  width:  4vh;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -9,11 +9,11 @@
   transform: scale(1.2);
 }
 .selected {
-  outline: 2px solid black;
+  outline: 1px solid black;
 }
 @media only screen and (max-width: 600px) {
   .color-circle {
-    height: 2rem;
-    width: 2rem;
+    height: 3vh;
+    width:  3vh;
   }
 }
