@@ -1,0 +1,37 @@
+.input {
+  /* position: fixed;
+    bottom: 0; */
+  height: 30vh;
+  width: 80vw;
+  background-color: #e8e8e8;
+  padding: 1vh;
+}
+.form {
+  position: fixed;
+  display: flex;
+  width: 80vw;
+}
+
+.textarea {
+  width: 75vw;
+  resize: none;
+  overflow: none;
+  padding: 1vh;
+  font-family: inherit;
+  height: 25vh;
+  border: 0px solid #ccc;
+  font-size: 1rem;
+  display: flex;
+  align-items: flex-start;
+}
+.btn {
+  bottom: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+img {
+  height: 5vh;
+}

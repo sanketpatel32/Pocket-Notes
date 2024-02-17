@@ -1,0 +1,19 @@
+.color-circle {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.color-circle:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.selected {
+  outline: 2px solid black;
+}
+@media only screen and (max-width: 600px) {
+  .color-circle {
+    height: 2rem;
+    width: 2rem;
+  }
+}
